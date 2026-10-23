@@ -16,7 +16,6 @@ model = ChatGroq(
 
 
 
-
 class ResumeAnalysis(BaseModel):
     name: str = Field(description="Full name of the candidate")
     email: EmailStr = Field(description="Valid email address")
